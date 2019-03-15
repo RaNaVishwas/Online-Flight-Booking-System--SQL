@@ -422,3 +422,10 @@ INSERT INTO `user` (`id`, `username`, `password`) VALUES
 --
 -- Indexes for table `admin`
 --
+
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`admin_id`);
+
+--
+-- Indexes for table `booking`
+--
