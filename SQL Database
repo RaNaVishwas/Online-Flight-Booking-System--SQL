@@ -445,3 +445,13 @@ ALTER TABLE `flight`
 --
 ALTER TABLE `flightbook`
   ADD PRIMARY KEY (`booking_id`);
+
+  --
+-- Indexes for table `flight_admin`
+--
+ALTER TABLE `flight_admin`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `flight_booking`
+-
