@@ -300,3 +300,17 @@ CREATE TABLE `register` (
   `postcode` varchar(30) NOT NULL,
   `password` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+--
+-- Dumping data for table `register`
+--
+
+INSERT INTO `register` (`register_id`, `first_name`, `last_name`, `email`, `telephone_no`, `add_line1`, `add_line2`, `postcode`, `password`) VALUES
+(1, 'xcv', 'cxv', 'rr@gmail.com', '1234567830', 'xcv', 'zdfg', '560070', 'ravi');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `room`
+--
