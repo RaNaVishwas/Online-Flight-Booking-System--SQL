@@ -142,3 +142,19 @@ CREATE TABLE `flight` (
   `imgpath` varchar(100) NOT NULL,
   `admin_id` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `flight`
+--
+
+INSERT INTO `flight` (`flight_id`, `total_seats`, `occupancy`, `size`, `view`, `flight_name`, `flight_from`, `flight_to`, `descriptions`, `rate`, `imgpath`, `admin_id`) VALUES
+(1, 10, 1, '10 sqft', 'city', 'Air India', 'Delhi', 'Mumbai', 'Neque porro quisquam est qui dolorem ipsum quia dolor', 150, 'img/air_india.jpg', 0),
+(2, 5, 1, '10 sqft', 'city', 'Indigo', 'Bengaluru', 'Dubai', 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit', 100, 'img/indigo.jpg', 1),
+(3, 10, 1, '20 sqft', 'City', 'British Airways', 'Chicago', 'London', 'Suitable for honeymoon', 120, 'img/british.jpg', 2),
+(5, 150, 0, '', '', 'Singapore Airlines', 'testfrom', 'testto', 'Economy Premium at its best', 250, 'img/1200px-Singapore_Airlines_Logo.svg.png', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `flightbook`
+--
