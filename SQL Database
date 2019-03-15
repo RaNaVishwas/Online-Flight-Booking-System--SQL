@@ -429,3 +429,10 @@ ALTER TABLE `admin`
 --
 -- Indexes for table `booking`
 --
+
+ALTER TABLE `booking`
+  ADD PRIMARY KEY (`booking_id`);
+
+--
+-- Indexes for table `flight`
+--
