@@ -182,3 +182,8 @@ INSERT INTO `flightbook` (`booking_id`, `flight_id`, `totalflightbook`, `id`, `a
 -- Table structure for table `flight_admin`
 --
 
+CREATE TABLE `flight_admin` (
+  `id` int(11) NOT NULL,
+  `username` varchar(300) NOT NULL,
+  `password` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
