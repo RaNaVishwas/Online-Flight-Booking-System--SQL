@@ -411,3 +411,14 @@ CREATE TABLE `user` (
 --
 -- Dumping data for table `user`
 --
+
+INSERT INTO `user` (`id`, `username`, `password`) VALUES
+(1, 'demo', 'demo');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `admin`
+--
