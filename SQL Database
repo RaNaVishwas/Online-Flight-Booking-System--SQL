@@ -314,3 +314,17 @@ INSERT INTO `register` (`register_id`, `first_name`, `last_name`, `email`, `tele
 --
 -- Table structure for table `room`
 --
+
+CREATE TABLE `room` (
+  `room_id` int(255) NOT NULL,
+  `total_room` int(255) NOT NULL,
+  `occupancy` int(255) DEFAULT NULL,
+  `size` varchar(30) DEFAULT NULL,
+  `view` varchar(30) DEFAULT NULL,
+  `room_name` varchar(50) NOT NULL,
+  `descriptions` text,
+  `rate` int(150) NOT NULL,
+  `imgpath` varchar(100) NOT NULL,
+  `admin_id` int(11) NOT NULL,
+  `location` varchar(150) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
