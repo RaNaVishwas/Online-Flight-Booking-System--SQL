@@ -464,3 +464,9 @@ ALTER TABLE `flight_booking`
 --
 ALTER TABLE `hotel_admin`
   ADD PRIMARY KEY (`id`);
+
+  --
+-- Indexes for table `register`
+--
+ALTER TABLE `register`
+  ADD PRIMARY KEY (`register_id`);
