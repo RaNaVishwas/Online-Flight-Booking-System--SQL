@@ -539,3 +539,13 @@ ALTER TABLE `register`
 --
 -- AUTO_INCREMENT for table `room`
 --
+
+
+ALTER TABLE `room`
+  MODIFY `room_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+--
+-- AUTO_INCREMENT for table `roombook`
+--
+ALTER TABLE `roombook`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=118;
+--
