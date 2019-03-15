@@ -343,3 +343,16 @@ INSERT INTO `room` (`room_id`, `total_room`, `occupancy`, `size`, `view`, `room_
 --
 -- Table structure for table `roombook`
 --
+
+
+CREATE TABLE `roombook` (
+  `booking_id` int(11) NOT NULL,
+  `room_id` int(11) NOT NULL,
+  `totalroombook` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
+  `admin_id` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `roombook`
+--
