@@ -158,3 +158,16 @@ INSERT INTO `flight` (`flight_id`, `total_seats`, `occupancy`, `size`, `view`, `
 --
 -- Table structure for table `flightbook`
 --
+
+
+CREATE TABLE `flightbook` (
+  `booking_id` int(11) NOT NULL,
+  `flight_id` int(11) NOT NULL,
+  `totalflightbook` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
+  `admin_id` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `flightbook`
+--
