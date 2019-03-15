@@ -398,3 +398,16 @@ INSERT INTO `roombook` (`booking_id`, `room_id`, `totalroombook`, `id`, `admin_i
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `username` varchar(300) NOT NULL,
+  `password` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `user`
+--
