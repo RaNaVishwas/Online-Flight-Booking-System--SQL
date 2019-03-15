@@ -187,3 +187,15 @@ CREATE TABLE `flight_admin` (
   `username` varchar(300) NOT NULL,
   `password` varchar(300) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+--
+-- Dumping data for table `flight_admin`
+--
+
+INSERT INTO `flight_admin` (`id`, `username`, `password`) VALUES
+(1, 'flt_admin', 'flt_admin'),
+(2, 'gh', 'gh'),
+(3, 'rt', 'rt');
+
+-- --------------------------------------------------------
