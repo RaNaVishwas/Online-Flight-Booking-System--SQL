@@ -522,3 +522,9 @@ ALTER TABLE `flight_admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `flight_booking`
+
+LTER TABLE `flight_booking`
+  MODIFY `booking_id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=216;
+--
+-- AUTO_INCREMENT for table `hotel_admin`
+-
