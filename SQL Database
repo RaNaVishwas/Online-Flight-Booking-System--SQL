@@ -266,3 +266,13 @@ INSERT INTO `flight_booking` (`booking_id`, `total_adult`, `total_children`, `ch
 --
 -- Table structure for table `hotel_admin`
 --
+
+CREATE TABLE `hotel_admin` (
+  `id` int(11) NOT NULL,
+  `username` varchar(300) NOT NULL,
+  `password` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `hotel_admin`
+--
