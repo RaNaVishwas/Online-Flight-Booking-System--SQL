@@ -477,3 +477,16 @@ ALTER TABLE `register`
 --
 ALTER TABLE `room`
   ADD PRIMARY KEY (`room_id`);
+
+
+--
+-- Indexes for table `roombook`
+--
+ALTER TABLE `roombook`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
