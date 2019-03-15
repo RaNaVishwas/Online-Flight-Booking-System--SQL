@@ -533,3 +533,9 @@ ALTER TABLE `hotel_admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `register`
+
+ALTER TABLE `register`
+  MODIFY `register_id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+--
+-- AUTO_INCREMENT for table `room`
+--
