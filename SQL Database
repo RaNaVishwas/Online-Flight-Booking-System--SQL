@@ -287,3 +287,16 @@ INSERT INTO `hotel_admin` (`id`, `username`, `password`) VALUES
 --
 -- Table structure for table `register`
 --
+
+
+CREATE TABLE `register` (
+  `register_id` int(200) NOT NULL,
+  `first_name` varchar(30) NOT NULL,
+  `last_name` varchar(30) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `telephone_no` varchar(30) NOT NULL,
+  `add_line1` varchar(100) NOT NULL,
+  `add_line2` varchar(100) NOT NULL,
+  `postcode` varchar(30) NOT NULL,
+  `password` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
