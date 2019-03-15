@@ -436,3 +436,12 @@ ALTER TABLE `booking`
 --
 -- Indexes for table `flight`
 --
+
+ALTER TABLE `flight`
+  ADD PRIMARY KEY (`flight_id`);
+
+--
+-- Indexes for table `flightbook`
+--
+ALTER TABLE `flightbook`
+  ADD PRIMARY KEY (`booking_id`);
