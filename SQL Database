@@ -328,3 +328,18 @@ CREATE TABLE `room` (
   `admin_id` int(11) NOT NULL,
   `location` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+--
+-- Dumping data for table `room`
+--
+
+INSERT INTO `room` (`room_id`, `total_room`, `occupancy`, `size`, `view`, `room_name`, `descriptions`, `rate`, `imgpath`, `admin_id`, `location`) VALUES
+(2, 5, 2, '10 sqft', 'city', 'Single Room', 'Neque porro ', 150, 'img/room3.png', 1, 'bengaluru'),
+(3, 20, 2, '250', 'city', 'Delux', 'vadkraj', 367, 'img/room2.jpg', 2, 'mumbai');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `roombook`
+--
