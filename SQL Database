@@ -528,3 +528,8 @@ LTER TABLE `flight_booking`
 --
 -- AUTO_INCREMENT for table `hotel_admin`
 -
+
+ALTER TABLE `hotel_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+--
+-- AUTO_INCREMENT for table `register`
