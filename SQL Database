@@ -171,3 +171,14 @@ CREATE TABLE `flightbook` (
 --
 -- Dumping data for table `flightbook`
 --
+
+
+INSERT INTO `flightbook` (`booking_id`, `flight_id`, `totalflightbook`, `id`, `admin_id`) VALUES
+(193, 1, 2, 1, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `flight_admin`
+--
+
