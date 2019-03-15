@@ -124,3 +124,21 @@ INSERT INTO `booking` (`booking_id`, `total_adult`, `total_children`, `checkin_d
 -- --------------------------------------------------------
 
 
+--
+-- Table structure for table `flight`
+--
+
+CREATE TABLE `flight` (
+  `flight_id` int(255) NOT NULL,
+  `total_seats` int(255) NOT NULL,
+  `occupancy` int(255) DEFAULT NULL,
+  `size` varchar(30) DEFAULT NULL,
+  `view` varchar(30) DEFAULT NULL,
+  `flight_name` varchar(50) NOT NULL,
+  `flight_from` varchar(150) NOT NULL,
+  `flight_to` varchar(150) NOT NULL,
+  `descriptions` text,
+  `rate` double NOT NULL,
+  `imgpath` varchar(100) NOT NULL,
+  `admin_id` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
